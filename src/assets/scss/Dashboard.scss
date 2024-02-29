@@ -1,0 +1,23 @@
+#Dashboard {
+    .theme--light.v-text-field .v-input__slot:before {
+      border-color: transparent !important;
+    }
+    .theme--light.v-icon {
+      margin-top: -20px;
+    }
+    .theme--light.v-input:not(.v-input--is-disabled) input, .theme--light.v-input:not(.v-input--is-disabled) textarea {
+      color: #1c1c1d;
+      font-size: 14px;
+    }
+    .v-text-field__details {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+      max-width: 100%;
+      overflow: hidden;
+      height: 0px;
+    }
+  }
